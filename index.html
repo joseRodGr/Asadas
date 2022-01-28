@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tecno-gis</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/37d22d08fc.js" crossorigin="anonymous"></script>
+    <script defer src="bootstrap/js/bootstrap.min.js"></script>
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav-bar">
+            <a href="#inicio" class="logo">
+                <i class="fas fa-map-marked-alt"></i>
+            </a>
+            <button class="but-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-list">
+                <li><a href="#inicio" class="list-item">Inicio</a></li>
+                <li><a href="#nosotros" class="list-item">Sobre nosotros</a></li>
+                <li><a href="#servicios" class="list-item">Servicios</a></li>
+                <li><a href="#contacto" class="list-item">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home-section" id="inicio">
+
+        <div class="section-header">
+            <h2>Servicios <span>SIG</span>  para <span>ASADAS</span></h2>
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/water.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/tubo.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/water1.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="nosotros-section" id="nosotros">
+        <div class="section-header">
+            <h2>Sobre nosotros</h2>
+            <p><span>¿Quiénes somos?</span></p>
+        </div>
+
+        <div class="section-content">
+            <p>Somos profesionales en aplicaciones informáticas orientadas al área de los Sistemas de Información Geográfica. Como parte de nuestro servicio, ofrecemos la <strong>geolocalización</strong> y <strong>digitalización</strong> de los diferentes elementos que componen el acueducto de su comunidad. Nuestro servicio se caracteriza por los siguientes valores:</p>
+        </div>
+
+        <div class="principle-container">
+
+            <div class="principle">
+                <div class="principle-image">
+                    <img src="images/emial.png" alt="">
+                </div>
+                <div class="principle-content">
+                    <div class="principle-tittle">
+                        Comunicación
+                    </div>
+                </div>
+            </div>
+
+            <div class="principle">
+                <div class="principle-image">
+                    <img src="images/comQWE.jpg" alt="">
+                </div>
+                <div class="principle-content">
+                    <div class="principle-tittle">
+                        Compromiso
+                    </div>
+                </div>
+            </div>
+
+            <div class="principle">
+                <div class="principle-image">
+                    <img src="images/cl.jpg" alt="">
+                </div>
+                <div class="principle-content">
+                    <div class="principle-tittle">
+                        Calidad
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </section>
+
+    <section class="servicios-section" id="servicios">
+        <div class="section-header">
+            <h2>Servicios</h2>
+            <p><span>¿Qué le ofrecemos?</span></p>
+        </div>
+
+        <div class="service-container">
+            <div class="service">
+                <div class="service-header">
+                    <h3>Levantamiento de puntos en campo</h3>
+                </div>
+                <div class="service-content">
+                    <div class="image">
+                        <img src="images/global.jpg" alt="">
+                    </div>
+                    <ul class="service-menu">
+                        <li class="service-item">Medidores</li>
+                        <li class="service-item">Tubería</li>
+                        <li class="service-item">Componentes de tubería</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-header">
+                    <h3>Diseño y entrega de planos</h3>
+                </div>
+                <div class="service-content">
+                    <div class="image">
+                        <img src="images/mini.jpg" alt="">
+                    </div>
+                    <ul class="service-menu">
+                        <li class="service-item">Físicos</li>
+                        <li class="service-item">Digitales</li>
+                        <li class="service-item">Archivos Shapefile</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contact-section" id="contacto">
+        <div class="contact-container">
+            <div class="section-header">
+                <h2>Contáctenos</h2>
+                <p>¡Será un placer trabajar en su comunidad!</p>
+            </div>
+            <form autocomplete="off">
+                <input class="box-input" type="text" placeholder="nombre" name="name" required>
+                <input class="box-input" type="email" placeholder="email" name="email" required autocomplete="on">
+                <input class="box-input" type="text" name="telephone" placeholder="teléfono (opcional)">
+                <textarea name="message" cols="30" rows="10" class="box-input box-message" placeholder="mensaje" required></textarea>
+                <button class="bton" type="submit">Enviar <i class="fas fa-paper-plane"></i></button>
+            </form>
+
+        </div>  
+        <footer class= "border-top">
+            <p class="text-center text-muted">© 2022 Jose Rodriguez G.</p>
+        </footer>      
+    </section>
+    
+</body>
+</html>

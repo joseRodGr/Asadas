@@ -1,0 +1,27 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background:#eee7;
+}
+
+.container-fluid{
+    text-align: center;
+    background: #2596be;
+    color: #fff;
+    padding: 2rem 0;
+    margin: 2rem 0; 
+    width: 100%;
+}
+
+
+.btn{
+    margin-top: 2rem;
+    color: #fff;
+    border: 1px solid #fff;
+}
